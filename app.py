@@ -2,12 +2,12 @@ import streamlit as st
 
 # Set page configuration
 st.set_page_config(
-    page_title="Your SaaS App",
+    page_title="Your Event registration App",
     layout="wide"
 )
 
 # Read HTML file
-with open('saas.html', 'r', encoding='utf-8') as file:
+with open('eventregisration.html', 'r', encoding='utf-8') as file:
     html_content = file.read()
 
 # Display HTML content
